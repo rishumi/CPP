@@ -2,14 +2,11 @@
 
 int main() {
 
-   int  x = 5;
-   int y = 6;
-   int sum = x+y;
+    const double pi = 3.141;
+    double radius = 10;
+    double circumference = 2 * pi * radius;
 
-    std::cout<< x << '\n';
-    std::cout<< y << '\n';
-    std::cout<<sum << '\n';
-
+    std:: cout << circumference;
 
     return 0;
 }
